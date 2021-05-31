@@ -24,7 +24,6 @@ public class ApiTestingSteps {
 
     @When("user try to get producer by id")
     public void getProducerById() {
-        System.out.println(id);
         response = new ApiEndpoints().getProducerById(id);
     }
 

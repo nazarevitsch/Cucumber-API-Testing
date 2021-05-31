@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: RunCucumberTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.942 s <<< FAILURE! - in RunCucumberTests
+Api testing with help of Cucumber.Create Producer with unauthorized user  Time elapsed: 0.591 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
